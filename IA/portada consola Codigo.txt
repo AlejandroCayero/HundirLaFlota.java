@@ -1,0 +1,15 @@
+public class Portada {
+    public static void main(String[] args) {
+        System.out.println("==================================");
+        System.out.println("|                                |");
+        System.out.println("|         Hundir la Flota        |");
+        System.out.println("|                                |");
+        System.out.println("==================================");
+        System.out.println("|                                |");
+        System.out.println("|   Un juego de estrategia naval |");
+        System.out.println("|                                |");
+        System.out.println("==================================");
+        System.out.println();
+        System.out.println("   Presiona Enter para comenzar ");
+    }
+}

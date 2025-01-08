@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Portada {
+    public static void main(String[] args) {
+        // Mostrar la portada
+        System.out.println("==================================");
+        System.out.println("|                                |");
+        System.out.println("|         Hundir la Flota        |");
+        System.out.println("|                                |");
+        System.out.println("==================================");
+        System.out.println("|                                |");
+        System.out.println("|   Un juego de estrategia naval |");
+        System.out.println("|                                |");
+        System.out.println("==================================");
+        System.out.println();
+        System.out.println("   Presiona Enter para comenzar ");
+
+        // Esperar a que el usuario presione Enter
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+        // Continuar con el resto del juego
+        System.out.println("¡Bienvenido al juego de Hundir la Flota!");
+        // Aquí puedes agregar el código para iniciar el juego
+    }
+}
